@@ -23,11 +23,17 @@ PC-market-skill/
 
 ## 安装
 
-把 `skills/deep-pc-market-research/` 整个目录复制到你的 Agent 的 skills 目录下即可，例如：
+把 `skills/deep-pc-market-research/` 整个目录复制到你所用 Agent 的 skills 目录下即可。不同 Agent 的目录位置不同，按实际路径替换：
 
 ```bash
-cp -r skills/deep-pc-market-research ~/.workbuddy/skills/
+# 通用形式：<AGENT_SKILLS_DIR> 换成你的 Agent 的 skills 目录
+cp -r skills/deep-pc-market-research <AGENT_SKILLS_DIR>/
+
+# 例：项目级 workspace
+cp -r skills/deep-pc-market-research ./skills/
 ```
+
+只要目标目录满足 `<skills 目录>/deep-pc-market-research/SKILL.md` 这一结构，Agent 即可通过 SKILL.md 顶部 frontmatter 的 `description` 识别并触发它。
 
 ## 使用
 
