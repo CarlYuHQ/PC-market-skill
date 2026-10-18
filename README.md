@@ -12,7 +12,7 @@ PC-market-skill/
 ├── 说明文档.md                                  # 完整设计说明（流程、取舍、反幻觉策略）
 ├── image002.png / image003.png                  # 说明文档配图
 └── skills/deep-pc-market-research/
-    ├── SKILL.md                                 # Skill 入口与工作流入
+    ├── SKILL.md                                 # Skill 入口与工作流定义
     ├── references/
     │   ├── pc-market-taxonomy.md                # PC 市场维度分类与检索词
     │   ├── source-quality.md                    # 来源 A/B/C/D 分级、置信度与重要性判定
